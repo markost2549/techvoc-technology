@@ -51,7 +51,15 @@ p {
   margin-bottom: 2rem;
 }
 .p-1 {
-  padding: 1rem;
+  padding: 1.5rem;
+}
+
+.p-2 {
+  padding: 2rem;
+}
+
+.p-3 {
+  padding: 3rem;
 }
 
 .py-1 {
@@ -80,6 +88,26 @@ p {
 .btn-dark {
   background-color: #333333;
   color: #ffffff;
+}
+
+.bg-light {
+  background-color: #f4f4f4;
+  color: #333333;
+}
+
+.bg-dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.list {
+  margin: 0.5rem 0;
+  list-style-type: none;
+}
+
+.list li {
+  padding: 0.5rem 0;
+  border-bottom: #444 dotted 1px;
 }
 
 /* Navbar */
@@ -149,4 +177,33 @@ p {
   border-radius: 50%;
   color: #ffffff;
   margin-bottom: 0.75rem;
+}
+
+/* Team */
+#team {
+  display: flex;
+}
+
+#team div {
+  flex: 1;
+}
+
+#team .team-img {
+  background: url('../images/team.jpg') no-repeat center center/cover;
+}
+
+#team .team-text p {
+  line-height: 1.7;
+}
+
+/* Section: Clients */
+#clients .items {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 7rem;
+}
+
+#clients .items .item {
+  padding: 2rem;
+  color: #a8a8a8;
 }
