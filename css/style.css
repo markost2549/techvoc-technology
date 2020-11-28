@@ -127,8 +127,9 @@ p {
   padding: 1rem;
 }
 
-#navbar .logo {
+#navbar .logo a {
   font-family: 'Orbitron', sans-serif;
+  color: #fff;
 }
 
 #navbar ul {
