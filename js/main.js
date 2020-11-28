@@ -1,29 +1,19 @@
 let map;
 let marker;
-let myPos = { lat: 44.786568, lng: 20.448921 };
+let myPos = { lat: 44.231165, lng: 22.528514 };
 
 //Google maps
 function initMap() {
   map = new google.maps.Map(document.querySelector('.map'), {
     center: myPos,
-    zoom: 11,
+    zoom: 14,
   });
 
   marker = new google.maps.Marker({
     position: myPos,
     map,
-    title: 'Hello World!',
+    title: 'Negotin',
   });
-
-  marker.addListener('click', toggleBounce);
-}
-
-function toggleBounce() {
-  if (marker.getAnimation() !== null) {
-    marker.setAnimation(null);
-  } else {
-    marker.setAnimation(google.maps.Animation.BOUNCE);
-  }
 }
 
 //Sticky menu background
