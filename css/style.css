@@ -21,7 +21,7 @@ p {
 
 /* Utility Classes */
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
@@ -199,11 +199,10 @@ p {
 /* Section: Clients */
 #clients .items {
   display: flex;
-  justify-content: space-around;
-  margin: 0 7rem;
+  justify-content: space-between;
+  margin: 2rem;
 }
 
 #clients .items .item {
-  padding: 2rem;
   color: #a8a8a8;
 }
